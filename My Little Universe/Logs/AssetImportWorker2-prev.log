@@ -1,0 +1,332 @@
+Unity Editor version:    2021.3.26f1 (a16dc32e0ff2)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63386
+Successfully changed project path to: /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+/Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 1831529742 [EditorId] 1831529742 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 1831529742 [EditorId] 1831529742 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 90.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002219 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 73 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 96.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (63ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (135ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (46ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 92.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5050 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.8 MB). Loaded Objects now: 5502.
+Memory consumption went from 242.0 MB to 240.2 MB.
+Total: 3.346417 ms (FindLiveObjects: 0.156750 ms CreateObjectMapping: 0.077541 ms MarkObjects: 2.437500 ms  DeleteObjects: 0.674041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 396846.356835 seconds.
+  path: Assets/ThirdParty/Feel/MMTools/Tools
+  artifactKey: Guid(02b656da9bbb14684afaf15b5de6e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Feel/MMTools/Tools using Guid(02b656da9bbb14684afaf15b5de6e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44bed73ecf4bc490c05ebda23e4635b') in 0.007636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.679145 seconds.
+  path: Assets/ThirdParty/Feel/MMTools/Tools/MMShaders
+  artifactKey: Guid(dfe888620792048178678855d03e62d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Feel/MMTools/Tools/MMShaders using Guid(dfe888620792048178678855d03e62d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb282be7c4c7a733095390ea7a5dcc84') in 0.001646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572735 seconds.
+  path: Assets/ThirdParty/Feel/MMTools/Tools/MMShaders/MMSkybox.shader
+  artifactKey: Guid(21b28f3ee4b3c13408ed85c229008f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Feel/MMTools/Tools/MMShaders/MMSkybox.shader using Guid(21b28f3ee4b3c13408ed85c229008f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e6ac9becc5b6c399459832b4571050') in 0.042809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.966014 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo
+  artifactKey: Guid(b85fd48d699a54115a1a36c871ff5230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo using Guid(b85fd48d699a54115a1a36c871ff5230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f89c669a6052fb7798195d44df298bb') in 0.001304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.906374 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials
+  artifactKey: Guid(ffdc4f022e13349beb28718d557d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials using Guid(ffdc4f022e13349beb28718d557d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6786f19ff5f9703113b49a30a272ea03') in 0.001752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082145 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
+  artifactKey: Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat using Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ad8103a7de96b839726a1eef178590') in 0.479705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.967334 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996fc3a950ad6d88dd04e6df11032ecf') in 0.610464 seconds 
+========================================================================
+Received Prepare
+Switching render pipeline 7b7fd9122c28c4d15b667c7040e3b3fd -> e1260c1148f6143b28bae5ace5e9c5d1
+Refreshing native plugins compatible for Editor in 4.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (2.0 MB). Loaded Objects now: 5637.
+Memory consumption went from 140.4 MB to 138.4 MB.
+Total: 3.611459 ms (FindLiveObjects: 0.198833 ms CreateObjectMapping: 0.084417 ms MarkObjects: 2.632500 ms  DeleteObjects: 0.695292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.235305 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat
+  artifactKey: Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat using Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderPipeline.cs:201)
+UnityEngine.Rendering.RenderPipeline:Dispose () (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:66)
+UnityEngine.Rendering.RenderPipelineManager:CleanupRenderPipeline () (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:80)
+UnityEngine.Rendering.RenderPipelineManager:HandleRenderPipelineChange (UnityEngine.Rendering.RenderPipelineAsset) (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:70)
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset) (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:124)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /Users/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:100)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+ -> (artifact id: '1c94f6aeb820c944cba56497c63acab4') in 0.129325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.631672 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da5c3933aa17ef6b395c7a866ce9708') in 0.131580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.847943 seconds.
+  path: Assets/Game/Materials/Atlas.mat
+  artifactKey: Guid(2f6098976bbeb48d5bd05c22f9fd66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Atlas.mat using Guid(2f6098976bbeb48d5bd05c22f9fd66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8c1d92980cb66e313c7ca78769e100') in 0.039104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.063738 seconds.
+  path: Assets/Game/Texture/Atlas.psd
+  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad37fef5228688775267dbb539e9ac77') in 0.070410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.276239 seconds.
+  path: Assets/Game/Models/Environment.blend
+  artifactKey: Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Environment.blend using Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c51d619e42dd8657d75385b8e8a36d') in 0.513283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.942859 seconds.
+  path: Assets/Game/Models/Environment.blend
+  artifactKey: Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Environment.blend using Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20be40a94f4b2a194e1215b9b9a6efa3') in 0.046306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.816736 seconds.
+  path: Assets/Game/Models/Environment.blend
+  artifactKey: Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Environment.blend using Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cf12fff539938fff1a8f4a98cdac46') in 0.040035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.267106 seconds.
+  path: Assets/Game/Models/Environment.blend
+  artifactKey: Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Environment.blend using Guid(7c9f772c029ea4e10a55c26278dc5bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33af61667269ebe4e5ac031c62b1fcc') in 0.037790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.101589 seconds.
+  path: Assets/Game/Texture/Atlas.psd
+  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5e6b079ce6712aaebd04744867c47b') in 0.036162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.110444 seconds.
+  path: Assets/Game/Texture/Atlas.psd
+  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138d82167b18959e52eaa96f3f3344d') in 0.033215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.914356 seconds.
+  path: Assets/Game/Texture/Atlas.psd
+  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c4404004e38f5ff0373fccad3d3adc') in 0.033516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.949484 seconds.
+  path: Assets/Game/Texture/Atlas.psd
+  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a10a0eff41376b14801d33e0ab66137') in 0.037282 seconds 
