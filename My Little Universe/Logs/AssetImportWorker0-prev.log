@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64414
+64946
 Successfully changed project path to: /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
 /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/dilara/Documents/GitHub/My-Little-U
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 2500669596 [EditorId] 2500669596 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 2756410114 [EditorId] 2756410114 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 2500669596 [EditorId] 2500669596 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 2756410114 [EditorId] 2756410114 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,79 +73,79 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56498
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56381
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001618 seconds.
+Registered in 0.000535 seconds.
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 70 ms
+Android Extension - Scanning For ADB Devices 72 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 86.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.489 seconds
+- Completed reload, in  0.472 seconds
 Domain Reload Profiling:
-	ReloadAssembly (490ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (35ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (377ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (59ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (129ms)
+				InitializePlatformSupportModulesInManaged (126ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (101ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (40ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005694 seconds.
+Registered in 0.001509 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 92.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 102.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (782ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (731ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,14 +153,18 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5050 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (2.4 MB). Loaded Objects now: 5502.
-Memory consumption went from 242.6 MB to 240.2 MB.
-Total: 3.342750 ms (FindLiveObjects: 0.189084 ms CreateObjectMapping: 0.081666 ms MarkObjects: 2.306959 ms  DeleteObjects: 0.764333 ms)
+Unloading 5133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (4.3 MB). Loaded Objects now: 5564.
+Memory consumption went from 253.4 MB to 249.1 MB.
+Total: 3.508541 ms (FindLiveObjects: 0.157750 ms CreateObjectMapping: 0.082167 ms MarkObjects: 2.032291 ms  DeleteObjects: 1.235834 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,68 +178,44 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 403132.708343 seconds.
-  path: Assets/Game/Texture/Atlas.psd
-  artifactKey: Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Texture/Atlas.psd using Guid(49bf39b471dca49c0858bdd68f33ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9606269d295f5861754c1ec596eaa9') in 0.220878 seconds 
+  Time since last request: 405998.540577 seconds.
+  path: Assets/Game/Materials/Atlas_CurvedWorld.mat
+  artifactKey: Guid(54d9ecb0275cb496db2177fe115f43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Atlas_CurvedWorld.mat using Guid(54d9ecb0275cb496db2177fe115f43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0cd2ebf5237006c85802ddd9da423b') in 0.169510 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 248.268496 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-8_CelCurveTexture-ramp.png
-  artifactKey: Guid(f18f259c2f45e489e9380c0a7c425d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-8_CelCurveTexture-ramp.png using Guid(f18f259c2f45e489e9380c0a7c425d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2eceab27c1eeca15d357127ff54a8b') in 0.335401 seconds 
+  Time since last request: 22.891236 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a570a33526d46af77da1aad24a5b1dbf') in 0.065573 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Pear1_CelCurveTexture-ramp.png
-  artifactKey: Guid(4fc15a589a6404d568a50e23d7a77a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Pear1_CelCurveTexture-ramp.png using Guid(4fc15a589a6404d568a50e23d7a77a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae8a49d67faea46ce90a489805bdfc') in 0.003735 seconds 
+  Time since last request: 344.962527 seconds.
+  path: Assets/Game/Scenes/Art.unity
+  artifactKey: Guid(ac64d5753132f4991a7e71af83b82116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scenes/Art.unity using Guid(ac64d5753132f4991a7e71af83b82116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caf3c4bde3288383a319f1542f9b6ef') in 0.001546 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Cherries_CelCurveTexture-ramp.png
-  artifactKey: Guid(ba4b66e1ec3d442d09e861e0914cc698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Cherries_CelCurveTexture-ramp.png using Guid(ba4b66e1ec3d442d09e861e0914cc698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaa2c44acd4f898c1497f6c5f7ea3e2') in 0.003225 seconds 
+  Time since last request: 3.821148 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6f11187bc3496f6e190d1f8556b1bd') in 0.707146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Models/DemoPlaneCurved-01.fbx
-  artifactKey: Guid(bdf908190a7ed4fe7b6dfd69e04f6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Models/DemoPlaneCurved-01.fbx using Guid(bdf908190a7ed4fe7b6dfd69e04f6f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302c87f6a36aa32e5ddbfb916d52c2d1') in 0.168956 seconds 
+  Time since last request: 195.717283 seconds.
+  path: Assets/Game/Scenes/Art.unity
+  artifactKey: Guid(ac64d5753132f4991a7e71af83b82116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scenes/Art.unity using Guid(ac64d5753132f4991a7e71af83b82116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53538975eefffcebdb4a0deb7ab2fa08') in 0.001626 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Packages/Epic Toon FX/Textures/triangle_curve.png
-  artifactKey: Guid(28cf82738e24d8446a1c95a26d2815ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Epic Toon FX/Textures/triangle_curve.png using Guid(28cf82738e24d8446a1c95a26d2815ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b0f1edd0c2ebd6923126e238506403') in 0.003590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Pear2_CelCurveTexture-ramp.png
-  artifactKey: Guid(ad5bc93edcc1045839ffbccc8bf96fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Pear2_CelCurveTexture-ramp.png using Guid(ad5bc93edcc1045839ffbccc8bf96fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c91463fe6e062a5e1c25f16c1c0a1ac') in 0.003361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Packages/Epic Toon FX/Models/ETFX_CurvedPlane.FBX
-  artifactKey: Guid(1177a25a7a5ca6f44acc493b154d5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Epic Toon FX/Models/ETFX_CurvedPlane.FBX using Guid(1177a25a7a5ca6f44acc493b154d5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128f3177a42c6d9b3801418704b5e3e') in 0.044484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.798317 seconds.
-  path: Assets/Packages/Amazing Assets/Curved World
-  artifactKey: Guid(42cd215498d879940ab85e9e2333b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Amazing Assets/Curved World using Guid(42cd215498d879940ab85e9e2333b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b6d562912bca30c3f27128ae0aa696') in 0.000606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.225061 seconds.
-  path: Assets/Packages/Amazing Assets/Curved World/Installer
-  artifactKey: Guid(6f90126f3fde61046b7dbf56c72744e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Amazing Assets/Curved World/Installer using Guid(6f90126f3fde61046b7dbf56c72744e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddc31bfb56608c443afad5f9064c345') in 0.000551 seconds 
+  Time since last request: 66.588102 seconds.
+  path: Assets/Game/Materials/Atlas.mat
+  artifactKey: Guid(2f6098976bbeb48d5bd05c22f9fd66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Atlas.mat using Guid(2f6098976bbeb48d5bd05c22f9fd66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee0dbf40cf5a4ecca1f97731deecf7c') in 0.482670 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001581 seconds.
+Registered in 0.001906 seconds.
 Begin MonoManager ReloadAssembly
 Cleanup Blit
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -251,54 +231,164 @@ UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Li
 
 (Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
 
-Thread 0x2aad87000 may have been prematurely finalized
+Thread 0x29bf87000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (733ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (537ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (177ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (4.5 MB). Loaded Objects now: 5658.
+Memory consumption went from 246.2 MB to 241.7 MB.
+Total: 4.267208 ms (FindLiveObjects: 0.218625 ms CreateObjectMapping: 0.136250 ms MarkObjects: 2.313167 ms  DeleteObjects: 1.598834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 382.893301 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3661bc03fc5c380842fa0ae96d5f2559') in 0.111022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.721660 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27981e7ae446e89624b1eaa0fa7d2593') in 0.013159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.998013 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89001dc22f4b81ab89aa304606949eea') in 0.010879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.003119 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f7bebb6d97637dd4005a63f88d5eb5') in 0.013951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.656607 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403feb8c9b72169d735e3ded522d249') in 0.009985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.292216 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Grass.prefab
+  artifactKey: Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Grass.prefab using Guid(be988c788c3bd4503a86b87364d95c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea18a7b7bf207ccebf5d54e717c3430') in 0.011100 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001729 seconds.
+Begin MonoManager ReloadAssembly
+Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:509)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+Thread 0x28cc47000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Shader 'Amazing Assets/Curved World/2D/Sprite-Lit-Default': fallback shader 'Amazing Assets/Curved World/Sprites/Default' not found
-Shader 'Amazing Assets/Curved World/2D/Sprite-Unlit-Default': fallback shader 'Amazing Assets/Curved World/Sprites/Default' not found
 Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
 Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4934 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (4.9 MB). Loaded Objects now: 5665.
-Memory consumption went from 254.4 MB to 249.5 MB.
-Total: 3.627375 ms (FindLiveObjects: 0.196542 ms CreateObjectMapping: 0.080292 ms MarkObjects: 2.012416 ms  DeleteObjects: 1.337542 ms)
+Unloading 4933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (4.5 MB). Loaded Objects now: 5704.
+Memory consumption went from 246.3 MB to 241.8 MB.
+Total: 4.192000 ms (FindLiveObjects: 0.191542 ms CreateObjectMapping: 0.084875 ms MarkObjects: 2.164208 ms  DeleteObjects: 1.751000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

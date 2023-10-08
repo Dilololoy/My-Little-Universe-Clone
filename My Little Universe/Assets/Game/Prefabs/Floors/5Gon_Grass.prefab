@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f6098976bbeb48d5bd05c22f9fd66b1, type: 2}
+  - {fileID: 2100000, guid: 54d9ecb0275cb496db2177fe115f43da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,7 +144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f6098976bbeb48d5bd05c22f9fd66b1, type: 2}
+  - {fileID: 2100000, guid: 54d9ecb0275cb496db2177fe115f43da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,7 +227,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f6098976bbeb48d5bd05c22f9fd66b1, type: 2}
+  - {fileID: 2100000, guid: 54d9ecb0275cb496db2177fe115f43da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -260,6 +260,7 @@ GameObject:
   - component: {fileID: 9091523779713768436}
   - component: {fileID: 7425444167693162831}
   - component: {fileID: 7407934715961169884}
+  - component: {fileID: 3247039923710358662}
   m_Layer: 0
   m_Name: 5Gon_Grass
   m_TagString: Untagged
@@ -277,7 +278,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6142823789039987402}
   - {fileID: 232669523346397422}
@@ -314,7 +315,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f6098976bbeb48d5bd05c22f9fd66b1, type: 2}
+  - {fileID: 2100000, guid: 54d9ecb0275cb496db2177fe115f43da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -336,6 +337,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3247039923710358662
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2560689819636363004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5779854934276521725, guid: 7c9f772c029ea4e10a55c26278dc5bbc, type: 3}
 --- !u!1 &4417572157531900826
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +412,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2f6098976bbeb48d5bd05c22f9fd66b1, type: 2}
+  - {fileID: 2100000, guid: 54d9ecb0275cb496db2177fe115f43da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
