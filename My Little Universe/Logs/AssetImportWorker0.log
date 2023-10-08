@@ -248,3 +248,36 @@ Received Import Request.
   path: Assets/UniversalRenderPipelineGlobalSettings.asset
   artifactKey: Guid(29f1004070bfc4993be9d4bbbccc5b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(29f1004070bfc4993be9d4bbbccc5b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769d929efb4620c3072ca3770722ad6d') in 0.024944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.891957 seconds.
+  path: Assets/Game/Skybox/Skybox_1.mat
+  artifactKey: Guid(5dd50a4d01c7c24418ba0ad83d74b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_1.mat using Guid(5dd50a4d01c7c24418ba0ad83d74b82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427732ebe2ec6c4b8a1bfe7bec932742') in 0.012475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game/Skybox/Skybox_7.mat
+  artifactKey: Guid(9cd63768bd1ffb84a8f63a079e5e908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_7.mat using Guid(9cd63768bd1ffb84a8f63a079e5e908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5dc6e420d01ae7ca695e66903a8b96') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/Skybox/Skybox_6.mat
+  artifactKey: Guid(3ff35354270284c4d9d51f5f9b1750a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_6.mat using Guid(3ff35354270284c4d9d51f5f9b1750a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9180a153fb18c3f3ec02c2a4e0a3657') in 0.006888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game/Skybox/Skybox_3.mat
+  artifactKey: Guid(d0f8252586147cb4d9f54b13da4cd641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_3.mat using Guid(d0f8252586147cb4d9f54b13da4cd641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad4a4253207f514d212d42e3d41847b') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/Skybox/Skybox_4.mat
+  artifactKey: Guid(a198fb6ec0561a44fa675ec067cb6ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_4.mat using Guid(a198fb6ec0561a44fa675ec067cb6ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffe23bbb039a143f739de67847dc2e0') in 0.007772 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

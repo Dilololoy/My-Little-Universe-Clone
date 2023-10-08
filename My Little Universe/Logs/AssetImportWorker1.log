@@ -188,3 +188,15 @@ Received Import Request.
   path: Assets/Game/Prefabs/Floors/5Gon_Stone.prefab
   artifactKey: Guid(ddc42fb41427a43af963aa52dc16140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game/Prefabs/Floors/5Gon_Stone.prefab using Guid(ddc42fb41427a43af963aa52dc16140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e6f28920bcd1fedc244e176250746') in 0.158939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.092418 seconds.
+  path: Assets/Game/Skybox/Skybox_2.mat
+  artifactKey: Guid(07a3b60db77efb1489ce7ef7cb249b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_2.mat using Guid(07a3b60db77efb1489ce7ef7cb249b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6b79c14d85a7e0ddea38d17df362d6') in 0.053393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game/Skybox/Skybox_5.mat
+  artifactKey: Guid(b968fa4bfb3b57d4e916a567346a3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Skybox_5.mat using Guid(b968fa4bfb3b57d4e916a567346a3ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f638875df6278af1ba20a43d223d2') in 0.007037 seconds 
