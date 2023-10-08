@@ -340,8 +340,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/BloomEditor.cs"
-"Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/BloomEditor.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs"
 -langversion:9.0
 
 /deterministic

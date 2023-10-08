@@ -337,12 +337,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_CameraDepth.cs"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_GetPosOnWater.cs"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_GetVertexWavesPosition.cs"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_PlanarReflection.cs"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_RuntimeUtils.cs"
-"Assets/JMO Assets/Toony Colors Pro/Scripts/TCP2_ShaderUpdateUnityTime.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_CameraDepth.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_GetPosOnWater.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_GetVertexWavesPosition.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_PlanarReflection.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_RuntimeUtils.cs"
+"Assets/Packages/JMO Assets/Toony Colors Pro/Scripts/TCP2_ShaderUpdateUnityTime.cs"
 -langversion:9.0
 
 /deterministic

@@ -1,0 +1,355 @@
+Unity Editor version:    2021.3.26f1 (a16dc32e0ff2)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65061
+Successfully changed project path to: /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+/Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 527377012 [EditorId] 527377012 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8533041280] Host "[IP] 10.5.49.163 [Port] 0 [Flags] 2 [Guid] 527377012 [EditorId] 527377012 [Version] 1048832 [Id] OSXEditor(0,applikeITs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 100.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56869
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.26f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000494 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 73 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (477ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (59ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (129ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (42ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dilara/Documents/GitHub/My-Little-Universe-Clone/My Little Universe/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 102.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
+Shader 'Amazing Assets/Curved World/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Amazing Assets/Curved World/Tutorial/Surface Shader (Finished)': fallback shader 'Hidden/Amazing Assets/Curved World/Fallback/VertexLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (5.1 MB). Loaded Objects now: 5564.
+Memory consumption went from 254.7 MB to 249.7 MB.
+Total: 4.949667 ms (FindLiveObjects: 0.225458 ms CreateObjectMapping: 0.184333 ms MarkObjects: 2.760958 ms  DeleteObjects: 1.778125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 408074.823388 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40827413527552d8e9d3341054c87040') in 0.045624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.187449 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat
+  artifactKey: Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat using Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb93d8f5fad626b1c29de6e04c509fb') in 0.157655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Skybox.mat
+  artifactKey: Guid(7d5a790d4c8ad4a3ca6178ff7a8bc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Skybox.mat using Guid(7d5a790d4c8ad4a3ca6178ff7a8bc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec341592cd80aa7dd57ce8ae3339761b') in 0.005325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Packages/Epic Toon FX/Demo/Materials/Skybox/PurpleSkybox.mat
+  artifactKey: Guid(eae4da572696be0409bce4b6e04a3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Epic Toon FX/Demo/Materials/Skybox/PurpleSkybox.mat using Guid(eae4da572696be0409bce4b6e04a3e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640ad9a9de49fd82dc0333b706a3739a') in 0.032165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Skybox.mat
+  artifactKey: Guid(d73d521995c70408b822a65d436df1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 7 - Var-OutlineImageEffect/7-Skybox.mat using Guid(d73d521995c70408b822a65d436df1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a3dea89d52a26e60ccd5434eb42ee4') in 0.006301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Skybox.mat
+  artifactKey: Guid(40d0e8ef240204dfd8636ab544510ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Skybox.mat using Guid(40d0e8ef240204dfd8636ab544510ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca121bf9e5875ae57e2105ff4cc5a7b6') in 0.006158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Shared/Car-Skybox.mat
+  artifactKey: Guid(ba73a2ed8551e4e52abc93b14e2d7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Shared/Car-Skybox.mat using Guid(ba73a2ed8551e4e52abc93b14e2d7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa35e4ac4ba6ca100353888745ba807c') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-Skybox.mat
+  artifactKey: Guid(356f19771c24e4858addfa35ce901350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 6 - Var-TwoColor/6-Skybox.mat using Guid(356f19771c24e4858addfa35ce901350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bdd70f8ed7de0379cd7dbc4a6897ca') in 0.005924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDay.mat
+  artifactKey: Guid(b94a90c9516c9cc42bf2d46a3d63a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxDay.mat using Guid(b94a90c9516c9cc42bf2d46a3d63a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4c75bef808033071460589e98bad21') in 0.023023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/Valley-Skybox 2.mat
+  artifactKey: Guid(0bd6d1c4256354e06af5e3a112f47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/Valley-Skybox 2.mat using Guid(0bd6d1c4256354e06af5e3a112f47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48e97d370e82e94bc2f92fa5b3182e') in 0.005078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat
+  artifactKey: Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat using Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5bed28f2845981ef34574fba13c9ca') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/Valley-Skybox 1.mat
+  artifactKey: Guid(7fece7608763947d9ba913243fda1296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/Valley-Skybox 1.mat using Guid(7fece7608763947d9ba913243fda1296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b469e2ba0eb284af4be971abe7f928c5') in 0.004971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox3.mat
+  artifactKey: Guid(14497830682194498bb140b4a1bcda95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox3.mat using Guid(14497830682194498bb140b4a1bcda95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd5cebedc354e7bec6666f146713ce9') in 0.005258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox1.mat
+  artifactKey: Guid(c5e2dc6dc922741828369b48fe58f5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox1.mat using Guid(c5e2dc6dc922741828369b48fe58f5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4261b9e2f9b0d0363bacbe997426254b') in 0.004885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Wanderer/Wanderer-Materials/Wanderer-Skybox1.mat
+  artifactKey: Guid(d1339379183f7481e91b499d20be7e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Wanderer/Wanderer-Materials/Wanderer-Skybox1.mat using Guid(d1339379183f7481e91b499d20be7e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f26558785b1d3f01be4e0f1eb1cd8c9') in 0.004821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FlatKit/Demos/[Water] Various Presets/Water Vessels Scene - Materials/WaterObjectsScene_Skybox.mat
+  artifactKey: Guid(dc5a02801bda546a59b7709ab86e48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Water] Various Presets/Water Vessels Scene - Materials/WaterObjectsScene_Skybox.mat using Guid(dc5a02801bda546a59b7709ab86e48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a1f25ea2927ab90dd6894ca4da3c4e') in 0.004916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Skybox.mat
+  artifactKey: Guid(a3b768f5754894b179d3c2034ae62ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Skybox.mat using Guid(a3b768f5754894b179d3c2034ae62ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f23c847562272e838de97de18e84fd1') in 0.007156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxNight.mat
+  artifactKey: Guid(24e37d9b5c3e0be4fab3e1defb323693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Graphics/TCP2_Demo_SkyboxNight.mat using Guid(24e37d9b5c3e0be4fab3e1defb323693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f17e4d2ec7afa0ee482400ef0adbfaa') in 0.017042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Skybox.mat
+  artifactKey: Guid(7bbd6567f57f743be9da5759fd15265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Skybox.mat using Guid(7bbd6567f57f743be9da5759fd15265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd5e3c7db270c53e8c4b5a6bf4b45ce') in 0.004793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FlatKit/Demos/[Demo] NormalMapsTree/NormalMapsTree-Materials/_TreeNormalMaps_Skybox.mat
+  artifactKey: Guid(22cce7939444a45e08978892bb5848f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] NormalMapsTree/NormalMapsTree-Materials/_TreeNormalMaps_Skybox.mat using Guid(22cce7939444a45e08978892bb5848f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0421612521ede74fc66d778d847ce1') in 0.005282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.326899 seconds.
+  path: Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend 2.mat
+  artifactKey: Guid(c45a783066b3e4f8886eb164b66ad248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend 2.mat using Guid(c45a783066b3e4f8886eb164b66ad248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ca9170151cf9f7aa424b8e04e86271') in 0.186635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1158.705638 seconds.
+  path: Assets/Game/Materials/Water.mat
+  artifactKey: Guid(c30d23d1ad44d413a89f221b22308e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Materials/Water.mat using Guid(c30d23d1ad44d413a89f221b22308e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0106ca8cd0adce8e41fe65d293a56c09') in 0.050263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.001197 seconds.
+  path: Assets/Game/Prefabs/Floors/5Gon_Stone.prefab
+  artifactKey: Guid(ddc42fb41427a43af963aa52dc16140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Floors/5Gon_Stone.prefab using Guid(ddc42fb41427a43af963aa52dc16140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca96587d16cf389f3ff151549772473') in 0.069543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 514.994666 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/BakedLitForwardPass.hlsl
+  artifactKey: Guid(8a4b5d97edd0fbe48afa0d0cba91d0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/BakedLitForwardPass.hlsl using Guid(8a4b5d97edd0fbe48afa0d0cba91d0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494e6b08bf0149cca71e3557f0c84302') in 0.025429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/SimpleLitDepthNormalsPass.hlsl
+  artifactKey: Guid(c1d48b6b190067e47ae8797f517ff7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/SimpleLitDepthNormalsPass.hlsl using Guid(c1d48b6b190067e47ae8797f517ff7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e4c1d51a137300a9f41b9441160c5e') in 0.000924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/DepthOnlyPass.hlsl
+  artifactKey: Guid(b6ca6867426fa054391cf69d9528b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/DepthOnlyPass.hlsl using Guid(b6ca6867426fa054391cf69d9528b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623df647c02a53cd92bf903dea58f8a') in 0.001022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/LitDepthNormalsPass.hlsl
+  artifactKey: Guid(b09fd7069f65bd74c93894550caa44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/LitDepthNormalsPass.hlsl using Guid(b09fd7069f65bd74c93894550caa44fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb24bbbf379a97ddca13315d761c8a0') in 0.001096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/Universal2D.hlsl
+  artifactKey: Guid(62e14f76aa8ce12449a8ecc7cd2f54fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/Universal2D.hlsl using Guid(62e14f76aa8ce12449a8ecc7cd2f54fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9861ffb0d966ab28b7e27e029281af49') in 0.000830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/LitGBufferPass.hlsl
+  artifactKey: Guid(e4c58eb893ede3a42bce174a398a78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amazing Assets/Curved World/Shaders/Custom/Lit/LitGBufferPass.hlsl using Guid(e4c58eb893ede3a42bce174a398a78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004e584d7748b08989ff65270ba93a1e') in 0.001225 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
